@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lil Warm Hug — Handcrafted Soy Wax Candles</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="nav-logo">Lil Warm <span>Hug</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" onclick="closeNav()">Home</a></li>
+      <li><a href="#products" onclick="closeNav()">Products</a></li>
+      <li><a href="#about" onclick="closeNav()">About</a></li>
+      <li><a href="#contact" onclick="closeNav()">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-tagline">Handcrafted with Love</p>
+      <h1 class="hero-title">Lil Warm <em>Hug</em></h1>
+      <p class="hero-subtitle">
+        Every candle tells a story. Hand-poured premium soy wax candles <br />
+        designed to fill your space with warmth, comfort &amp; a little magic.
+      </p>
+      <a href="#products" class="hero-cta">Explore Collection</a>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="line"></div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="products" id="products">
+    <p class="section-label">Shop</p>
+    <h2 class="section-title">Our Products</h2>
+    <div class="section-divider"></div>
+
+    <div class="category-tabs">
+      <button class="cat-tab active" data-cat="all">All</button>
+      <button class="cat-tab" data-cat="beverage">Beverage Luxe</button>
+      <button class="cat-tab" data-cat="fruit">Fruit Dessert</button>
+      <button class="cat-tab" data-cat="floral">Floral</button>
+      <button class="cat-tab" data-cat="classic">Classic</button>
+      <button class="cat-tab" data-cat="bloom">Bloom Glow</button>
+      <button class="cat-tab" data-cat="signature">Signature</button>
+      <button class="cat-tab" data-cat="teddy">Teddy</button>
+      <button class="cat-tab" data-cat="basket">Gift Baskets</button>
+    </div>
+
+    <div class="product-grid" id="productGrid"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <p class="section-label">Our Story</p>
+    <h2 class="section-title">About Lil Warm Hug</h2>
+    <div class="section-divider"></div>
+    <div class="about-content">
+      <p class="about-text fade-in">
+        At <strong>Lil Warm Hug</strong>, we believe every moment deserves a touch of warmth. Our premium handcrafted soy wax candles are thoughtfully designed and hand-poured with love, using only the finest natural soy wax and exquisite fragrance blends. Each candle is a work of art &mdash; from delicate flower-topped jars to playful fruit-shaped creations &mdash; crafted to transform your space into a cozy sanctuary. We are committed to clean burning, eco-friendly ingredients, and packaging that feels as special as the candle inside. Whether you&rsquo;re treating yourself or gifting someone dear, a Lil Warm Hug is more than a candle &mdash; it&rsquo;s a feeling.
+      </p>
+
+      <div class="about-features">
+        <div class="about-feature fade-in">
+          <div class="about-icon">&#x1F331;</div>
+          <h4>100% Soy Wax</h4>
+          <p>Clean-burning, eco-friendly natural soy wax for a healthier home</p>
+        </div>
+        <div class="about-feature fade-in">
+          <div class="about-icon">&#x270B;</div>
+          <h4>Hand-Poured</h4>
+          <p>Every candle is meticulously crafted by hand with attention to detail</p>
+        </div>
+        <div class="about-feature fade-in">
+          <div class="about-icon">&#x1F33A;</div>
+          <h4>Premium Fragrances</h4>
+          <p>Curated scent blends that fill your space with lasting aroma</p>
+        </div>
+        <div class="about-feature fade-in">
+          <div class="about-icon">&#x1F381;</div>
+          <h4>Gift-Ready</h4>
+          <p>Beautifully packaged and perfect for any special occasion</p>
+        </div>
+        <div class="about-feature fade-in">
+          <div class="about-icon">&#x2728;</div>
+          <h4>Unique Designs</h4>
+          <p>From teddy bears to mermaid tails — one-of-a-kind artistic candle creations</p>
+        </div>
+        <div class="about-feature fade-in">
+          <div class="about-icon">&#x1F49A;</div>
+          <h4>Eco-Friendly</h4>
+          <p>Sustainable packaging and natural ingredients that are kind to the planet</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <p class="section-label">Get in Touch</p>
+    <h2 class="section-title">Contact Us</h2>
+    <div class="section-divider"></div>
+
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <div class="contact-item fade-in">
+          <div class="contact-icon">&#x1F4AC;</div>
+          <div>
+            <h4>WhatsApp</h4>
+            <a href="https://wa.me/919845947424" target="_blank">+91 98459 47424</a>
+          </div>
+        </div>
+        <div class="contact-item fade-in">
+          <div class="contact-icon">&#x2709;</div>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:lilwarmhug@gmail.com">lilwarmhug@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-item fade-in">
+          <div class="contact-icon">&#x1F4CD;</div>
+          <div>
+            <h4>Follow Us</h4>
+            <p>@lilwarmhug on Instagram</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-cta fade-in">
+        <h3>Let&rsquo;s Connect</h3>
+        <p>Have a custom order in mind? Want to collaborate? We&rsquo;d love to hear from you.</p>
+        <a href="https://wa.me/919845947424?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20your%20candles." target="_blank" class="hero-cta" style="border-color: var(--gold-light); color: var(--cream);">Send a Message</a>
+        <div class="contact-social">
+          <a href="https://instagram.com/lilwarmhug" class="social-link" target="_blank" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=lilwarmhug@gmail.com&su=Enquiry%20from%20Website" class="social-link" target="_blank" aria-label="Gmail">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+          <a href="https://wa.me/919845947424" class="social-link" target="_blank" aria-label="WhatsApp">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2026 <span>Lil Warm Hug</span>. All rights reserved. Handcrafted with love.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
