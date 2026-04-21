@@ -8,16 +8,16 @@ const products = [
     price: 649,
     cat: "beverage",
     image: "images/products/Glass_Candle10.png",
-    badge: "Bestseller"
+    badge: "Bestseller",
   },
   {
-    name: "Strawberry Delight Candle",
+    name: "Berry Bliss Dessert Candle",
     desc: "Sweet berry bliss in a glass — a luscious strawberry vanilla candle for cozy evenings.",
     fragrance: "Strawberry / Vanilla / Berry Bliss",
     burn: "25–30 hours",
-    price: 649,
+    price: 699,
     cat: "beverage",
-    image: "images/products/Desert_Candle1.png"
+    image: "images/products/Desert_Candle1.png",
   },
   {
     name: "Iced Latte Luxe Candle",
@@ -26,7 +26,7 @@ const products = [
     burn: "30–35 hours",
     price: 649,
     cat: "beverage",
-    image: "images/products/Glass_Candle7.png"
+    image: "images/products/Glass_Candle7.png",
   },
 
   // Fruit Dessert
@@ -38,7 +38,7 @@ const products = [
     price: 499,
     cat: "fruit",
     image: "images/products/Glass_Candle1.png",
-    badge: "Bestseller"
+    badge: "Bestseller",
   },
   {
     name: "Blueberry Dessert Candle",
@@ -47,7 +47,7 @@ const products = [
     burn: "25–30 hours",
     price: 499,
     cat: "fruit",
-    image: "images/products/Dil1.png"
+    image: "images/products/Dil1.png",
   },
   {
     name: "Summer Mango Indulgence",
@@ -57,7 +57,7 @@ const products = [
     price: 499,
     cat: "fruit",
     image: "images/products/Dil2.png",
-    badge: "New"
+    badge: "New",
   },
   {
     name: "Orange Citrus Burst Candle",
@@ -66,58 +66,58 @@ const products = [
     burn: "25–30 hours",
     price: 499,
     cat: "fruit",
-    image: "images/products/Dil3.png"
+    image: "images/products/Dil3.png",
   },
 
   // Floral
   {
-    name: "Sunflower Citrus Candle",
+    name: "SoftRose Romanace Candle",
     desc: "Cheerful sunflower-topped soy candle in a cupcake mould — fresh citrus sunshine.",
     fragrance: "Citrus / Orange Fresh",
     burn: "25–30 hours",
-    price: 349,
-    cat: "floral",
-    image: "images/products/Glass_Flower5.png"
-  },
-  {
-    name: "Soft Romance Glow",
-    desc: "A delicate pink rose-topped candle with glitter — romantic and elegant.",
-    fragrance: "Rose / Vanilla Floral",
-    burn: "20–25 hours",
     price: 499,
     cat: "floral",
-    image: "images/products/Desert_Candle3.png"
+    image: "images/products/Glass_Flower5.png",
   },
   {
-    name: "Golden Petal Glow",
+    name: "Strawbery Milk Delight Candle",
+    desc: "A delicate pink rose-topped candle with glitter — romantic and elegant.",
+    fragrance: "Rose / Vanilla Floral",
+    burn: "15–20 hours",
+    price: 349,
+    cat: "floral",
+    image: "images/products/Desert_Candle3.png",
+  },
+  {
+    name: "Amethyst Bloom Candle",
     desc: "Yellow flower bouquet jar candle with a blue ribbon — a gift of golden warmth.",
     fragrance: "Vanilla Floral / Fresh Blossom",
     burn: "30–35 hours",
     price: 649,
     cat: "floral",
     image: "images/products/Glass_Flower1.png",
-    badge: "Bestseller"
+    badge: "Bestseller",
   },
   {
-    name: "Lavender Daisy Bloom",
+    name: "Sunflower Citrus Candle",
     desc: "Purple daisy soy candle in a white cupcake mould — calming lavender vibes.",
     fragrance: "Lavender / Fresh Herbal / Floral",
     burn: "20–25 hours",
-    price: 449,
+    price: 349,
     cat: "floral",
-    image: "images/products/Diya1.png"
+    image: "images/products/Diya1.png",
   },
 
   // Classic
   {
-    name: "Peach Cream Bliss Candle",
+    name: "Iced Latte Luxe Candle",
     desc: "Warm glowing candle with the brand's signature look — soft peach cream aroma.",
     fragrance: "Peach / Cream / Vanilla",
     burn: "25–30 hours",
     price: 649,
     cat: "classic",
     image: "images/products/Glass_Candle8.png",
-    badge: "Bestseller"
+    badge: "Bestseller",
   },
   {
     name: "Midnight Sky Candle",
@@ -126,7 +126,7 @@ const products = [
     burn: "30–35 hours",
     price: 549,
     cat: "classic",
-    image: "images/products/Glass_Candle4.png"
+    image: "images/products/Glass_Candle4.png",
   },
   {
     name: "Blush Bloom Candle",
@@ -135,7 +135,7 @@ const products = [
     burn: "30–35 hours",
     price: 549,
     cat: "classic",
-    image: "images/products/Glass_Candle3.png"
+    image: "images/products/Glass_Candle3.png",
   },
   {
     name: "Ocean Breeze Candle",
@@ -144,19 +144,19 @@ const products = [
     burn: "30–35 hours",
     price: 599,
     cat: "classic",
-    image: "images/products/Glass_Candle5.png"
+    image: "images/products/Glass_Candle5.png",
   },
 
   // Bloom Glow
   {
-    name: "Scarlet Bloom Glow",
+    name: "Celestial Angel Candle",
     desc: "Deep cranberry candle in a margarita glass — rich, bold, and beautifully topped.",
     fragrance: "Rose / Vanilla Floral",
     burn: "30–35 hours",
     price: 649,
     cat: "bloom",
     image: "images/products/Glass_Candle13.png",
-    badge: "Bestseller"
+    badge: "Bestseller",
   },
   {
     name: "Petal Dream Candle",
@@ -165,7 +165,7 @@ const products = [
     burn: "30–35 hours",
     price: 649,
     cat: "bloom",
-    image: "images/products/Glass_Flower2.png"
+    image: "images/products/Glass_Flower2.png",
   },
   {
     name: "Amethyst Bloom Candle",
@@ -174,18 +174,18 @@ const products = [
     burn: "30–35 hours",
     price: 649,
     cat: "bloom",
-    image: "images/products/Glass_Flower3.png"
+    image: "images/products/Glass_Flower3.png",
   },
 
   // Signature
   {
-    name: "Royal Rose Bloom Candle",
+    name: "Golden Bloom Luxe Candle",
     desc: "Luxurious golden pot filled with handcrafted red and blush wax roses — truly royal.",
     fragrance: "Red Roses / Soft Peony / Creamy Vanilla",
-    burn: "20–25 hours",
-    price: 599,
+    burn: "30–35 hours",
+    price: 999,
     cat: "signature",
-    image: "images/products/Frame1.png"
+    image: "images/products/Frame1.png",
   },
   {
     name: "Sunset Blossom Delight",
@@ -194,7 +194,7 @@ const products = [
     burn: "5–10 hours",
     price: 649,
     cat: "signature",
-    image: "images/products/Glass_Candle12.png"
+    image: "images/products/Glass_Candle12.png",
   },
   {
     name: "Midnight Bloom Bliss Candle",
@@ -203,45 +203,45 @@ const products = [
     burn: "20–25 hours",
     price: 599,
     cat: "signature",
-    image: "images/products/Glass_Candle2.png"
+    image: "images/products/Glass_Candle2.png",
   },
   {
-    name: "Mango Mastani Luxe Candle",
+    name: "Mango Mastani Delight Candle",
     desc: "Delicious mango mastani dessert candle in a wine glass with a yellow ribbon — summer in a glass.",
     fragrance: "Sweet Mango / Mango Vanilla",
-    burn: "30–35 hours",
-    price: 649,
+    burn: "15–20 hours",
+    price: 349,
     cat: "signature",
     image: "images/products/Desert_Candle2.png",
-    badge: "Bestseller"
+    badge: "Bestseller",
   },
   {
-    name: "Mermaid Pearl Dream",
+    name: "Mermaid Dreamscape Candle",
     desc: "A sleeping mermaid nestled in a starfish shell with pearls — magical ocean fantasy.",
     fragrance: "Ocean Mist / Coconut / Soft Amber",
     burn: "15–20 hours",
     price: 799,
     cat: "signature",
     image: "images/products/StarFish_Candle2.png",
-    badge: "Limited"
+    badge: "Limited",
   },
   {
-    name: "Coral Mermaid Tail Candle",
+    name: "Rose Glod Mermaid Candle",
     desc: "Shimmering mermaid tail rising from pearl-topped wax in a fishbowl — pure enchantment.",
     fragrance: "Rose Gold / Vanilla / Sea Breeze",
-    burn: "25–30 hours",
-    price: 749,
+    burn: "15–20 hours",
+    price: 399,
     cat: "signature",
-    image: "images/products/Glass_Candle14.png"
+    image: "images/products/Glass_Candle14.png",
   },
   {
     name: "Seashell Starfish Candle",
     desc: "Ocean treasures in a starfish dish — shells, pearls, and coastal calm.",
     fragrance: "Sea Salt / Sandy Driftwood / Fresh Ozone",
     burn: "10–15 hours",
-    price: 449,
+    price: 399,
     cat: "signature",
-    image: "images/products/StarFish_Candle1.png"
+    image: "images/products/StarFish_Candle1.png",
   },
 
   // Teddy
@@ -253,7 +253,7 @@ const products = [
     price: 149,
     cat: "teddy",
     image: "images/products/Teddy_Candle1.png",
-    badge: "Bestseller"
+    badge: "Bestseller",
   },
   {
     name: "Starry Teddy Bliss Candle",
@@ -262,7 +262,7 @@ const products = [
     burn: "5–10 hours",
     price: 149,
     cat: "teddy",
-    image: "images/products/Teddy_Candle2.png"
+    image: "images/products/Teddy_Candle2.png",
   },
   {
     name: "Cotton Candy Teddy Candle",
@@ -271,7 +271,7 @@ const products = [
     burn: "5–10 hours",
     price: 149,
     cat: "teddy",
-    image: "images/products/Teddy_Candle3.png"
+    image: "images/products/Teddy_Candle3.png",
   },
   {
     name: "Sweet Dreams Teddy Candle",
@@ -280,7 +280,7 @@ const products = [
     burn: "5–10 hours",
     price: 149,
     cat: "teddy",
-    image: "images/products/Teddy_Candle4jpeg.png"
+    image: "images/products/Teddy_Candle4jpeg.png",
   },
   {
     name: "Sleeping Angel Candle",
@@ -289,7 +289,7 @@ const products = [
     burn: "10–15 hours",
     price: 249,
     cat: "teddy",
-    image: "images/products/Glass_Candle12.png"
+    image: "images/products/Glass_Candle12.png",
   },
 
   // Gift Baskets
@@ -301,16 +301,16 @@ const products = [
     price: 1399,
     cat: "basket",
     image: "images/products/Flower_Basket6.png",
-    badge: "Bestseller"
+    badge: "Bestseller",
   },
   {
-    name: "Red Velvet Love Basket",
+    name: "Fruity Delight Candle Hamper",
     desc: "Wicker basket overflowing with red and white rose candles and dried flowers — pure romance.",
     fragrance: "Rose / Vanilla / Floral Blend",
     burn: "35–40 hours (combined)",
-    price: 1399,
+    price: 799,
     cat: "basket",
-    image: "images/products/Flower_Basket2.png"
+    image: "images/products/Flower_Basket2.png",
   },
   {
     name: "Blush Bloom Basket",
@@ -319,52 +319,53 @@ const products = [
     burn: "30–40 hours",
     price: 999,
     cat: "basket",
-    image: "images/products/Flower_Basket1.png"
+    image: "images/products/Flower_Basket1.png",
   },
   {
-    name: "Lavender Bloom Candle Basket",
+    name: "Red Velvet Love Basket",
     desc: "Pink lotus and flower candles in a handled basket — a stunning gift of love.",
     fragrance: "Lavender / Rose / Floral Blend",
     burn: "35–40 hours (combined)",
     price: 999,
     cat: "basket",
-    image: "images/products/Flower_Basket4.png"
+    image: "images/products/Flower_Basket4.png",
   },
   {
-    name: "Fruity Delight Candle Hamper",
+    name: "Lavender Blossom Candle",
     desc: "A fruit basket filled with banana, strawberry, and pumpkin shaped candles — a sweet delight!",
     fragrance: "Mixed Fruity (Sweet & Refreshing)",
-    burn: "30+ hours (combined)",
-    price: 699,
+    burn: "5-10 hours (combined)",
+    price: 199,
     cat: "basket",
     image: "images/products/Mini_Basket1.png",
-    badge: "Gift Set"
+    badge: "Gift Set",
   },
   {
     name: "Rose Petal Love Basket",
     desc: "Beautiful rose candle trio in a fish bowl — delicate petals for a romantic setting.",
     fragrance: "Fresh Rose / Peony / Musk",
     burn: "25–30 hours (combined)",
-    price: 799,
+    price: 699,
     cat: "basket",
-    image: "images/products/Mini_Basket3.png"
+    image: "images/products/Mini_Basket3.png",
   },
 ];
 
-const grid = document.getElementById('productGrid');
+const grid = document.getElementById("productGrid");
 
 function renderProducts(cat) {
-  const filtered = cat === 'all' ? products : products.filter(p => p.cat === cat);
-  grid.innerHTML = '';
+  const filtered =
+    cat === "all" ? products : products.filter((p) => p.cat === cat);
+  grid.innerHTML = "";
 
   filtered.forEach((p, i) => {
-    const card = document.createElement('div');
-    card.className = 'product-card';
+    const card = document.createElement("div");
+    card.className = "product-card";
     card.style.transitionDelay = `${i * 0.06}s`;
     card.innerHTML = `
       <div class="product-image-wrap">
         <img src="${p.image}" alt="${p.name}" loading="lazy" />
-        ${p.badge ? `<span class="product-badge">${p.badge}</span>` : ''}
+        ${p.badge ? `<span class="product-badge">${p.badge}</span>` : ""}
       </div>
       <div class="product-info">
         <h3 class="product-name">${p.name}</h3>
@@ -379,50 +380,59 @@ function renderProducts(cat) {
     `;
     grid.appendChild(card);
     requestAnimationFrame(() => {
-      requestAnimationFrame(() => card.classList.add('visible'));
+      requestAnimationFrame(() => card.classList.add("visible"));
     });
   });
 }
 
-document.querySelectorAll('.cat-tab').forEach(tab => {
-  tab.addEventListener('click', () => {
-    document.querySelectorAll('.cat-tab').forEach(t => t.classList.remove('active'));
-    tab.classList.add('active');
+document.querySelectorAll(".cat-tab").forEach((tab) => {
+  tab.addEventListener("click", () => {
+    document
+      .querySelectorAll(".cat-tab")
+      .forEach((t) => t.classList.remove("active"));
+    tab.classList.add("active");
     renderProducts(tab.dataset.cat);
   });
 });
 
 function enquireProduct(name) {
-  const msg = encodeURIComponent(`Hi! I'm interested in the "${name}" candle. Could you share more details?`);
-  window.open(`https://wa.me/919845947424?text=${msg}`, '_blank');
+  const msg = encodeURIComponent(
+    `Hi! I'm interested in the "${name}" candle. Could you share more details?`,
+  );
+  window.open(`https://wa.me/919845947424?text=${msg}`, "_blank");
 }
 
-renderProducts('all');
+renderProducts("all");
 
 // Navbar scroll
-window.addEventListener('scroll', () => {
-  document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+window.addEventListener("scroll", () => {
+  document
+    .getElementById("navbar")
+    .classList.toggle("scrolled", window.scrollY > 50);
 });
 
 // Mobile nav toggle
-const navToggle = document.getElementById('navToggle');
-const navLinks = document.getElementById('navLinks');
+const navToggle = document.getElementById("navToggle");
+const navLinks = document.getElementById("navLinks");
 
-navToggle.addEventListener('click', () => {
-  navLinks.classList.toggle('open');
+navToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("open");
 });
 
 function closeNav() {
-  navLinks.classList.remove('open');
+  navLinks.classList.remove("open");
 }
 
 // Intersection Observer for fade-in animations
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-    }
-  });
-}, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      }
+    });
+  },
+  { threshold: 0.1, rootMargin: "0px 0px -50px 0px" },
+);
 
-document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+document.querySelectorAll(".fade-in").forEach((el) => observer.observe(el));
