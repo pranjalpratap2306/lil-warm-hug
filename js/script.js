@@ -170,15 +170,6 @@ const products = [
     cat: "classic",
     image: "images/products/Glass_Candle3.png",
   },
-  {
-    name: "Ocean Breeze Candle", //Replace
-    desc: "Teal ocean-inspired candle with seashell accents — coastal calm in every breath.",
-    fragrance: "Sea Salt / Fresh Aqua / Driftwood",
-    burn: "30–35 hours",
-    price: 599,
-    cat: "classic",
-    image: "images/products/Glass_Candle5.png",
-  },
 
   // Bloom Glow
   {
