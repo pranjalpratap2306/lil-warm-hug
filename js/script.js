@@ -204,11 +204,31 @@ const products = [
 
   // Signature
   {
+    name: "Lavender Pearl Gift Hamper",
+    desc: "A luxurious Raksha Bandhan hamper featuring a handcrafted lavender rose candle, elegant pearl-filled star decorative tray with wax embellishments, stylish floral earrings, and a premium wooden gift basket. A perfect blend of elegance and fragrance for festive gifting.",
+    fragrance: "Lavender Blossom",
+    burn: "25–30 hours",
+    price: 999,
+    cat: "signature",
+    image: "images/products/gift5.jpeg",
+    badge: "Premium Gift",
+  },
+  {
+    name: "Pearl Star",
+    desc: "A luxurious gift basket featuring a pearl-filled star candle, elegant rose candle, and coastal-inspired decorative accents.",
+    fragrance: "Vanilla / White Musk / Floral",
+    burn: "20–25 hours",
+    price: 799,
+    cat: "signature",
+    image: "images/products/gift4.jpeg",
+    badge: "Premium",
+  },
+  {
     name: "Golden Bloom Luxe Candle",
     desc: "Luxurious golden pot filled with handcrafted red and blush wax roses — truly royal.",
     fragrance: "Red Roses / Soft Peony / Creamy Vanilla",
     burn: "30–35 hours",
-    price: 999,
+    price: 699,
     cat: "signature",
     image: "images/products/Frame1.png",
   },
@@ -302,6 +322,57 @@ const products = [
 
   // Gift Baskets
   {
+    name: "Blue Waves Brother Rakhi Hamper",
+    desc: "A beautifully curated Raksha Bandhan hamper featuring a handcrafted blue swirl scented candle, premium designer rakhi, decorative star resin tray, heartfelt 'For My Bro' message card, and an elegant wooden gift basket. A memorable gift made especially for your brother.",
+    fragrance: "Ocean Mist / Vanilla",
+    burn: "20–24 hours",
+    price: 849,
+    cat: "basket",
+    image: "images/products/gift6.jpeg",
+    badge: "Rakhi Special",
+  },
+  {
+    name: "Chocolate Delight Rakhi Hamper",
+    desc: "A premium Raksha Bandhan hamper featuring a sunflower scented candle, Cadbury Dairy Milk Silk chocolate, handcrafted designer rakhi, and an elegant decorative resin tray. A thoughtful gift to make your brother feel extra special.",
+    fragrance: "Sunflower / Honey Vanilla",
+    burn: "20–24 hours",
+    price: 849,
+    cat: "basket",
+    image: "images/products/gift2.jpeg",
+    badge: "Rakhi Special",
+  },
+  {
+    name: "Blue Blossom Rakhi Gift Box",
+    desc: "A charming Rakhi gift box featuring handcrafted blue and yellow floral candles, a cute teddy candle, premium designer rakhi, and delicious chocolate accents. Perfect for celebrating sibling love.",
+    fragrance: "Blue Orchid / Vanilla",
+    burn: "22–26 hours",
+    price: 799,
+    cat: "basket",
+    image: "images/products/gift3.jpeg",
+    badge: "Rakhi Special",
+  },
+  {
+    name: "Birthday Celebration Gift Basket",
+    desc: "A delightful birthday gift basket featuring handcrafted decorative candles, dessert-inspired candles, floral accents, and a birthday greeting tag. A perfect surprise for friends, family, and loved ones.",
+    fragrance: "Vanilla / Mango / Floral",
+    burn: "24–28 hours",
+    price: 899,
+    cat: "basket",
+    image: "images/products/gift1.jpeg",
+    badge: "Birthday Special",
+  },
+
+  {
+    name: "Royal Rose Candle Basket",
+    desc: "An elegant handcrafted wicker basket featuring luxurious rose-shaped candles in vibrant pink and red hues, beautifully accented with dried flowers. A perfect gift for birthdays, anniversaries, Valentine's Day, and special celebrations.",
+    fragrance: "Rose / Vanilla / Floral Blend",
+    burn: "35–40 hours (combined)",
+    price: 999,
+    cat: "basket",
+    image: "images/products/gift basket1.jpeg",
+    badge: "Bestseller",
+  },
+  {
     name: "Blush Bloom Basket",
     desc: "Delicate peach and rose candle flowers in a woven basket — soft and elegant.",
     fragrance: "Rose / Vanilla / Floral Bliss",
@@ -357,6 +428,29 @@ const products = [
     price: 699,
     cat: "basket",
     image: "images/products/Mini_Basket3.png",
+  },
+
+  // Candle Bouquet
+
+  {
+    name: "Crimson Elegance Candle Bouquet",
+    desc: "An exquisite handcrafted candle bouquet with luxurious rose-shaped soy wax candles, complemented by dried floral accents and wrapped in premium pastel paper.",
+    fragrance: "Rose / Peony",
+    burn: "30–35 hours (combined)",
+    price: 999,
+    cat: "bouquet",
+    image: "images/products/candle bouquet2.jpeg",
+    badge: "Premium Bouquet",
+  },
+  {
+    name: "Golden Blush Candle Bouquet",
+    desc: "Premium handcrafted soy wax candle bouquet featuring blooming rose candles in warm golden and coral shades, elegantly wrapped for unforgettable gifting moments.",
+    fragrance: "Rose / Vanilla",
+    burn: "30–35 hours (combined)",
+    price: 1119,
+    cat: "bouquet",
+    image: "images/products/candle bouquet1.jpeg",
+    badge: "Premium",
   },
 ];
 
